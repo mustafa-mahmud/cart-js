@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<!-- font-awesome -->
+		<script src="https://kit.fontawesome.com/57c0bbe657.js"></script>
+		<!-- favicon link -->
+		<link rel="shortcut icon" type="image/ico" href="./images/favicon-connectdevelop1.ico">
+		<!-- main css link -->
+		<link rel="stylesheet" href="style.css">
+		<title>Fashion Furniture Collection</title>
+	</head>
+
+	<body>
+		<!-- navbar -->
+		<!-- ctrl i - to wrap this div with div -->
+		<nav class="navbar">
+			<div class="navbar-center">
+				<span class="nav-icon">
+					<i class="fas fa-bars"></i>
+				</span>
+				<h3 class="navLogo">Fashion<span class="navLogoSpan">Furniture</span></h3>
+				<div class="cart-btn">
+					<span class="nav-icon">
+						<i class="fas fa-cart-arrow-down"></i>
+					</span>
+					<div class="cart-items">0</div>
+				</div>
+			</div>
+		</nav>
+		<!-- end of navbar -->
+
+		<!-- Jumbo section starts -->
+		<header class="hero">
+			<div class="banner">
+				<h1 class="banner-title">furniture collection</h1>
+				<!-- button.banner-btn{shop now} -->
+				<a href="#product"><button class="banner-btn">shop now</button></a>
+			</div>
+		</header>
+		<!-- Jumbo section ends -->
+
+		<!-- PRODUCT SECTION -->
+		<a name="product"></a>
+		<section class="products">
+			<div class="section-title">
+				<h2>Our Products</h2>
+			</div>
+			<div class="products-center">
+				<!-- single product -->
+				<!-- <article class="product">
+					<div class="img-container">
+						<img src="./images/content1.jpg" alt="product" class="product-img">
+						<button class="bag-btn" data-id="1">
+							<i class="fas fa-shopping-cart"></i> add to bag
+						</button>
+					</div>
+					<h3>Queen Bed</h3>
+					<h4>$26,900</h4>
+				</article> -->
+				<!-- single product article ends -->
+			</div>
+		</section>
+		<!-- PRODUCT SECTION ends -->
+
+		<!-- CART starts -->
+		<div class="cart-overlay">
+			<div class="cart">
+				<span class="close-cart">
+					<i class="far fa-window-close"></i>
+				</span>
+				<h2>Your Cart</h2>
+				<!-- Cart content -->
+				<div class="cart-content">
+					<!-- cart Item -->
+					<!-- <div class="cart-item" data-id="1">
+						<img src="./images/content-5.jpg" alt="product item">
+						<div>
+							<h4>Queen Bed</h4>
+							<h5>$26,900</h5>
+							<span class="remove-item">remove</span>
+						</div>
+						<div>
+							<i class="fas fa-chevron-up"></i>
+							<p class="item-amount">1</p>
+							<i class="fas fa-chevron-down"></i>
+						</div>
+						<div id="total">
+							<p>
+								<strong>$90,000.45</strong>
+							</p>
+						</div>
+					</div> -->
+					<!-- cart Item ends -->
+				</div>
+				<!-- Cart content ends -->
+
+				<!-- Cart footer -->
+				<div class="cart-footer">
+					<h3>Your total : $<span class="cart-total">0</span></h3>
+					<button class="clear-cart banner-btn">Clear Cart</button>
+				</div>
+				<!-- Cart footer ends -->
+			</div>
+		</div>
+		<!-- CART ends -->
+
+		<!-- contentful API link -->
+		<script src="https://cdn.jsdelivr.net/npm/contentful@latest/dist/contentful.browser.min.js"></script>
+		<!-- main script -->
+		<script src="script.js"></script>
+	</body>
+
+</html>

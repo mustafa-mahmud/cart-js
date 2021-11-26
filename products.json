@@ -1,0 +1,100 @@
+{
+	"items": [
+		{
+			"sys": { "id": "1" },
+			"fields": {
+				"title": "queen panel bed",
+				"price": 85.99,
+				"image": { "fields": { "file": { "url": "./images/content1.jpg" } } }
+			}
+		},
+		{
+			"sys": { "id": "2" },
+			"fields": {
+				"title": "king panel bed",
+				"price": 75.99,
+				"image": { "fields": { "file": { "url": "./images/queen-bed.jpg" } } }
+			}
+		},
+		{
+			"sys": { "id": "3" },
+			"fields": {
+				"title": "single panel bed",
+				"price": 50.99,
+				"image": { "fields": { "file": { "url": "./images/content3.jpg" } } }
+			}
+		},
+		{
+			"sys": { "id": "4" },
+			"fields": {
+				"title": "twin panel bed",
+				"price": 30.99,
+				"image": { "fields": { "file": { "url": "./images/content4.jpg" } } }
+			}
+		},
+		{
+			"sys": { "id": "5" },
+			"fields": {
+				"title": "kitchen furniture",
+				"price": 80.99,
+				"image": { "fields": { "file": { "url": "./images/content-5.jpg" } } }
+			}
+		},
+		{
+			"sys": { "id": "6" },
+			"fields": {
+				"title": "set furniture",
+				"price": 35.99,
+				"image": { "fields": { "file": { "url": "./images/reading-room-furniture.jpg" } } }
+			}
+		},
+		{
+			"sys": { "id": "7" },
+			"fields": {
+				"title": "couch",
+				"price": 50.99,
+				"image": { "fields": { "file": { "url": "./images/content7-1.jpg" } } }
+			}
+		},
+		{
+			"sys": { "id": "8" },
+			"fields": {
+				"title": "chair",
+				"price": 30.99,
+				"image": { "fields": { "file": { "url": "./images/content8.jpg" } } }
+			}
+		},
+		{
+			"sys": { "id": "9" },
+			"fields": {
+				"title": "bed for kids",
+				"price": 20.99,
+				"image": { "fields": { "file": { "url": "./images/content9.jpg" } } }
+			}
+		},
+		{
+			"sys": { "id": "10" },
+			"fields": {
+				"title": "living-room furniture",
+				"price": 40.99,
+				"image": { "fields": { "file": { "url": "./images/content10.jpg" } } }
+			}
+		},
+		{
+			"sys": { "id": "11" },
+			"fields": {
+				"title": "matching couch-chair",
+				"price": 85.99,
+				"image": { "fields": { "file": { "url": "./images/content11.jpg" } } }
+			}
+		},
+		{
+			"sys": { "id": "12" },
+			"fields": {
+				"title": "white leather section couch",
+				"price": 70.99,
+				"image": { "fields": { "file": { "url": "./images/content12.jpg" } } }
+			}
+		}
+	]
+}
